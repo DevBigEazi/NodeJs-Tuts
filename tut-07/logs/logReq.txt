@@ -1,0 +1,10 @@
+2023-05-17		08:49:44	f8528a63-1c9d-41f0-8ff8-4833f1916ed2	 GET	undefined	/ 
+2023-05-17		08:49:44	475d00b6-4371-4679-82ea-f2e56d5c96a1	 GET	undefined	/css/style.css 
+2023-05-17		08:50:00	ecc63d71-7817-449f-b936-cbbeca985e5a	 GET	undefined	/new-page.html 
+2023-05-17		08:50:01	9615db57-7fbb-4317-b443-4cf9f8646fbd	 GET	undefined	/css/style.css 
+2023-05-17		08:50:01	f82882a9-0a3d-4a4f-b8d0-310852545c29	 GET	undefined	/img/ 
+2023-05-17		08:52:12	b7334f1d-9c6b-4bd2-8895-f1f999e9c4c4	 GET	undefined	/ 
+2023-05-17		08:52:12	15e65dbb-998d-4140-be2c-150686c421cd	 GET	undefined	/css/style.css 
+2023-05-17		09:18:02	f7aa39ec-6d24-4b4e-abfe-2f059b02df41	 GET	undefined	/css/style.css 
+2023-05-17		09:20:08	f25a7bae-0c0c-4371-a683-0f54c99f3f9d	 GET	undefined	/ 
+2023-05-17		09:20:08	dfbafadb-f7d5-4446-ba5d-13d192e9cc06	 GET	undefined	/css/style.css 
