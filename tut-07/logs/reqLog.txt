@@ -1,0 +1,14 @@
+2023-05-18		12:46:14	a98c8ee7-27ca-40c8-8b61-6512f0ddc27e	 GET	undefined	/ 
+2023-05-18		12:46:14	2c7cb42e-c4e8-4a9b-b649-e7b5437c427b	 GET	undefined	/css/style.css 
+2023-05-18		12:46:35	d55148c2-994c-4c57-b199-2380dc6d8af9	 GET	undefined	/ 
+2023-05-18		12:50:24	b7721eac-4e1a-4763-8134-137754b56880	 GET	undefined	/ 
+2023-05-18		12:51:35	4ec83368-6d5e-4774-9c2b-78d1d8051f81	 GET	undefined	/ 
+2023-05-18		12:51:35	ae7857ad-4137-47ac-a298-78dfe244adbc	 GET	undefined	/css/style.css 
+2023-05-18		12:53:05	efb3c178-ed79-40ea-9591-d87851670902	 GET	undefined	/ 
+2023-05-18		12:53:05	0ab2fdf3-44fb-4650-9d72-ace800490a24	 GET	undefined	/css/style.css 
+2023-05-18		12:53:09	ea19d62e-7f88-496f-a46f-90227713e427	 GET	undefined	/dsd 
+2023-05-18		12:53:09	f40f3e3a-f3a8-46e5-bf3e-dd7d4e10a814	 GET	undefined	/css/style.css 
+2023-05-18		12:56:23	b7538177-b95a-4516-8619-96ac487a9ff0	 GET	undefined	/dsd 
+2023-05-18		12:56:23	3931baf3-c40b-4e40-a036-fbf95757196d	 GET	undefined	/css/style.css 
+2023-05-18		12:56:24	6aa42a97-6751-40c6-9964-3777d4476deb	 GET	undefined	/dsd 
+2023-05-18		12:56:24	fcd1bfeb-5730-4f93-901b-4047ac6ce6da	 GET	undefined	/css/style.css 
