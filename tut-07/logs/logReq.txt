@@ -1,10 +1,10 @@
-2023-05-17		08:49:44	f8528a63-1c9d-41f0-8ff8-4833f1916ed2	 GET	undefined	/ 
-2023-05-17		08:49:44	475d00b6-4371-4679-82ea-f2e56d5c96a1	 GET	undefined	/css/style.css 
-2023-05-17		08:50:00	ecc63d71-7817-449f-b936-cbbeca985e5a	 GET	undefined	/new-page.html 
-2023-05-17		08:50:01	9615db57-7fbb-4317-b443-4cf9f8646fbd	 GET	undefined	/css/style.css 
-2023-05-17		08:50:01	f82882a9-0a3d-4a4f-b8d0-310852545c29	 GET	undefined	/img/ 
-2023-05-17		08:52:12	b7334f1d-9c6b-4bd2-8895-f1f999e9c4c4	 GET	undefined	/ 
-2023-05-17		08:52:12	15e65dbb-998d-4140-be2c-150686c421cd	 GET	undefined	/css/style.css 
-2023-05-17		09:18:02	f7aa39ec-6d24-4b4e-abfe-2f059b02df41	 GET	undefined	/css/style.css 
-2023-05-17		09:20:08	f25a7bae-0c0c-4371-a683-0f54c99f3f9d	 GET	undefined	/ 
-2023-05-17		09:20:08	dfbafadb-f7d5-4446-ba5d-13d192e9cc06	 GET	undefined	/css/style.css 
+
+2023-05-17		13:43:36	b02eff51-6e1d-496b-8c36-23cb0c4ac4dd	 OPTIONS	https://www.google.com	/ 
+2023-05-17		13:43:36	5fe8aaf8-2fb4-4229-ab54-5238f5dc426e	 GET	https://www.google.com	/ 
+2023-05-17		13:45:21	384bb05f-f10d-4193-b96b-e45e35f6ea64	 OPTIONS	https://expressjs.com	/ 
+2023-05-17		13:45:21	863f736d-5df8-4397-a015-8cc17291d06b	 GET	https://expressjs.com	/ 
+2023-05-17		13:49:25	999fce57-d940-4e6a-bc9b-6fb4bb9848ef	 GET	undefined	/ 
+2023-05-17		13:49:25	80e0cb43-f3ec-47f7-a56f-90b6e2e8e118	 GET	undefined	/css/style.css 
+2023-05-17		13:49:25	44050f5f-337a-4105-8230-fdbafd9784e9	 GET	undefined	/favicon.ico 
+2023-05-17		13:50:44	ce621a8c-7758-4c98-bb34-64757f3fb0cd	 OPTIONS	https://www.google.com	/ 
+2023-05-17		13:50:44	452d6c02-e666-442b-b570-aabcba899c15	 GET	https://www.google.com	/ 

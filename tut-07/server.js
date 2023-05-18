@@ -4,7 +4,7 @@ const path = require("path");
 
 const { logger } = require("./middleware/logEvents");
 
-const PORT = process.env.PORT || 3500;
+const PORT = process.env.PORT || 8500;
 
 // custom middleware
 app.use(logger);
