@@ -49,6 +49,8 @@ app.use("/subdir", express.static(path.join(__dirname, "/public"))); // tell the
 // routes
 app.use("/", require("./routes/root"));
 app.use("/subdir", require("./routes/subdir"));
+//api routes
+app.use("/employees", require("./routes/api/employees"));
 
 // app.use and app.all different
 // with app.use we can have somthing like this app.use('/) but we can not apply regex and it is more likely to be used for middleware. now apply regex in the latest version
