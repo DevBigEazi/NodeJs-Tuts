@@ -6,6 +6,7 @@ const cookieParser = require("cookie-parser");
 
 const { logger } = require("./middleware/logEvents");
 const errorHandler = require("./middleware/errorHandler");
+const credential = require("./middleware/credential");
 const corsOptions = require("./config/corsOptions");
 const verifyJWT = require("./middleware/verifyJWT");
 
@@ -14,6 +15,8 @@ const PORT = process.env.PORT || 8500;
 // custom middleware
 app.use(logger);
 
+// credentials check must be done b4 cors(Cross Origin Resource Sharing)
+app.use(credential);
 app.use(cors(corsOptions));
 
 app.use(express.urlencoded({ extended: false }));

@@ -23,7 +23,7 @@ const handleLogut = async (req, res) => {
   );
 
   if (!foundUser) {
-    res.clearCookie("jwt", { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 }); // clear cookies
+    res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true }); // clear cookies
     return res.sendStatus(204);
   }
 
@@ -40,7 +40,7 @@ const handleLogut = async (req, res) => {
   );
 
   // delete cookie
-  res.clearCookie("jwt", { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 }); // on production, {secure: true} must be added...it means only serve on https
+  res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true }); // {secure: true} must be added...it means only serve on https
   res.sendStatus(204);
 };
 
