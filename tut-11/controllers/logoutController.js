@@ -40,6 +40,7 @@ const handleLogut = async (req, res) => {
 
   // delete cookie
   res.clearCookie("jwt", { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 }); // on production, {secure: true} must be added...it means only serve on https
+  res.sendStatus(204);
 };
 
 module.exports = { handleLogut };
