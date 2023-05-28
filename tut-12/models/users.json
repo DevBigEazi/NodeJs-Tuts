@@ -1,0 +1,42 @@
+[
+  {
+    "username": "Opasco",
+    "roles": {
+      "Admin": 4518,
+      "Editor": 2054,
+      "Users": 4000
+    },
+    "password": "$2b$10$Zy9MYM.M.IsrnO3K88dIWOIoJqqqdpSNogNo2irCOjGIf87CdqUzG",
+    "refreshToken": ""
+  },
+  {
+    "username": "Olasco",
+    "roles": {
+      "Users": 4000
+    },
+    "password": "$2b$10$iZB/otBCvYLx3a1ZqmVkzuhHDspzxWeAxwJ7gjbtbPXH243fjY.3i"
+  },
+  {
+    "username": "Papasco",
+    "roles": {
+      "Users": 4000
+    },
+    "password": "$2b$10$RCqxXYftpX6cD4uTcyKq7eknya5x6lPpfunW9qioKRAfIOcBSaVTC"
+  },
+  {
+    "username": "Ade",
+    "roles": {
+      "Editor": 2054,
+      "Users": 4000
+    },
+    "password": "$2b$10$bQKxNKaG0R8o.fJExG6dO.K6O558SRfduovvItuYESUHcxcORTvWa"
+  },
+  {
+    "username": "Tawa",
+    "roles": {
+      "Editor": 2054,
+      "Users": 4000
+    },
+    "password": "$2b$10$PzrU9qeI0yaFoBmq2AvIoehHPMQoBrdLr6pxfNpfoZjkE6CRRvvdi"
+  }
+]
