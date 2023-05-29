@@ -4,7 +4,7 @@ const usersDB = {
     this.users = data;
   },
 };
-const fsPromises = require("fs").promises;
+const fsPromises = require("fs/promises");
 const path = require("path");
 const bcrypt = require("bcrypt");
 

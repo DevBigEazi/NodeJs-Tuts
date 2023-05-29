@@ -7,8 +7,6 @@ const usersDB = {
 
 const fsPromises = require("fs/promises");
 const path = require("path");
-const paths = require("path");
-const { json } = require("stream/consumers");
 
 const handleLogut = async (req, res) => {
   //Also delete the token on client side
