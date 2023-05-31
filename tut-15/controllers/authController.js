@@ -13,7 +13,7 @@ const handleLogin = async (req, res) => {
   const foundUser = await User.findOne({ username: user }).exec();
   if (!foundUser) return res.sendStatus(401); // unauthorized
   // evaluate the password
-  const match = bcrypt.compare(pwd, foundUser.password);
+  const match = await bcrypt.compare(pwd, foundUser.password);
   if (match) {
     const roles = Object.values(foundUser.roles);
     // create JWTs
@@ -42,7 +42,7 @@ const handleLogin = async (req, res) => {
     res.cookie("jwt", refreshToken, {
       httpOnly: true,
       sameSite: "None",
-      secure: true,
+      //   secure: true,
       maxAge: 24 * 60 * 60 * 1000,
     });
     res.json({ accessToken });
