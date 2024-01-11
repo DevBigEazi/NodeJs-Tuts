@@ -9,6 +9,9 @@ const errorHandler = require('./middlewares/errorHandler');
 
 const PORT = process.env.PORT || 8000;
 
+app.set('view engine', 'pug');
+app.set('views', 'views');
+
 app.use(logger)
 
 // app.use(cors());
@@ -19,13 +22,11 @@ app.use(express.json());
 
 app.use(cookieParser());
 
-
-
 app.use('/', express.static(path.join(__dirname, '/public')));
 
 // routes
 app.use('/', require('./routes/root'));
-app.use('/admin', require('./routes/admin'));
+app.use('/', require('./routes/admin').router);
 
 
 //serve error page
