@@ -1,12 +1,17 @@
-doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
-        link(rel="stylesheet", href="/css/style.css")
-    body 
-    h1 Welcome 
-    //- classname method
-    p.product-link 
-        a(href="/add-product") Add product
+extends layouts/main-layout.pug
+
+block content 
+    main 
+        if prods.length > 0
+            .grid
+                each product in prods
+                    article 
+                        h2 #{product.title} 
+                        img(src="https://rb.gy/4b4qkd", alt="book")
+                        .cardContent
+                            h4.price $19.99
+                            p A very intresting book to read 
+                        .action 
+                            button Add to cart 
+        else 
+            h2 No product to display 

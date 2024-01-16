@@ -33,7 +33,7 @@ app.use('/', require('./routes/admin').router);
 app.all('*', (req, res) => {
     res.status(404);
     if (req.accepts('html')) {
-        res.sendFile(path.join(__dirname, 'views', '404.html'));
+        res.render('404',  { pageTitle: 'Page Not Found' });
     } else if (req.accepts('json')) {
         res.json({ error: '404 Not Found' });
     } else {

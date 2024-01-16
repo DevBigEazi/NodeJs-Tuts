@@ -5,10 +5,43 @@
 }
 
 body {
+    background-color: green;
+    color: #fff;
+}
+
+main {
     font-size: 36px;
     min-height: 100vh;
-    color: #fff;
-    background-color: green;
     display: grid;
     place-content: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10rem;
+}
+
+.nav {
+    padding: 30px 10px;
+    background-color: black;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    column-gap: 15px;
+    color: #fff;
+}
+
+.nav a {
+    color: tomato;
+    text-decoration: none;
+}
+
+a.active:hover {
+    color: yellow;
 }
